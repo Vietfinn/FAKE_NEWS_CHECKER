@@ -10,7 +10,8 @@ const FakeNewsChecker = () => {
   const [progress, setProgress] = useState(0);
   const [showResult, setShowResult] = useState(false);
 
-  const API_URL = 'http://localhost:8000';
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 
   useEffect(() => {
     if (loading) {

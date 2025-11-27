@@ -8,12 +8,13 @@ beautifulsoup4==4.12.3
 requests==2.32.3
 googlesearch-python==1.2.5
 lxml==5.3.0
+curl_cffi
 
 # NLP & ML - Core
 torch>=2.0.0
 transformers>=4.30.0
 sentence-transformers==3.3.0
-# scikit-learn==1.7.2
+scikit-learn==1.7.2
 numpy==1.26.4
 
 # Vietnamese NLP - PhoBERT Support
